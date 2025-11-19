@@ -1,0 +1,20 @@
+# src/main/resources/application.yml
+server:
+  port: 8087
+
+logging:
+  level:
+    com.lfw.holiday: INFO
+    org.springframework.web: INFO
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
