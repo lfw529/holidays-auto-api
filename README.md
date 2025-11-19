@@ -32,9 +32,11 @@ src/
 │       └── application.yml
 
 
+**使用说明**
+
 访问 Swagger UI：http://localhost:8086/swagger-ui.html
 
-⭐️ 访问接口：GET http://localhost:8086/holiday?year=2024
+⭐️ 访问接口：GET http://localhost:8086/holiday?year=2024   [年份可以自己传2020 ~ 2035的，后续会自动更新]
 
 前端跨域调用（无 CORS 错误）：
 
